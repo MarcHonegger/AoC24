@@ -1,6 +1,6 @@
 import copy
 
-lines = open('Input06.txt').read().splitlines()
+lines = open('../Inputs/Input06.txt').read().splitlines()
 
 directions = {'^': (-1, 0), '>': (0, 1), 'v': (1, 0), '<': (0, -1)}
 rotations = {'^': '>', '>': 'v', 'v': '<', '<': '^'}

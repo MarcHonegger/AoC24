@@ -6,7 +6,7 @@ def is_report_safe(r):
         # (possible) Descending order
         return all(1 <= r[i] - r[i + 1] <= 3 for i in range(len(r) - 1))
 
-reports = [[int(character) for character in line.split()] for line in open("Input02.txt", "r").read().splitlines()]
+reports = [[int(character) for character in line.split()] for line in open("../Inputs/Input02.txt", "r").read().splitlines()]
 count = 0
 for report in reports:
     for i in range(0, len(report)):

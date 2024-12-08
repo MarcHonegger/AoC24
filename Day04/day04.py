@@ -1,5 +1,5 @@
-test_text = open("TestInput04.txt", "r").read()
-text = open("Input04.txt", "r").read()
+test_text = open("../Inputs/TestInput04.txt", "r").read()
+text = open("../Inputs/Input04.txt", "r").read()
 texts = [test_text, text]
 
 

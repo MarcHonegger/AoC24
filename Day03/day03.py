@@ -1,6 +1,6 @@
 import re
 
-text_input = open("Input03.txt", "r").read()
+text_input = open("../Inputs/Input03.txt", "r").read()
 
 def multiplication(multiplier_list):
     return int(multiplier_list[0]) * int(multiplier_list[1])

@@ -1,6 +1,6 @@
 from sipbuild.generator.parser.annotations import string
 
-lines = open('Input07.txt').read().splitlines()
+lines = open('../Inputs/Input07.txt').read().splitlines()
 
 valid_operators = ['+', '*', '||']
 

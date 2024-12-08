@@ -1,4 +1,4 @@
-texts = open('TestInput05.txt').read().split('\n\n')
+texts = open('../Inputs/TestInput05.txt').read().split('\n\n')
 rules = sorted([[rule.split("|")[0], rule.split("|")[1]] for rule in texts[0].splitlines()])
 updates = texts[1].splitlines()
 
